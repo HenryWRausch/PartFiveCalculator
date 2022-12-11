@@ -4,7 +4,6 @@ module com.example.partfivecalculator {
 
 
     opens com.example.partfivecalculator to javafx.fxml;
-    exports com.example.partfivecalculator;
     exports CalculatorPackage;
     opens CalculatorPackage to javafx.fxml;
 }
